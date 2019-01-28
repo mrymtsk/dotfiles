@@ -1,0 +1,100 @@
+{
+  "version": 2,
+  "current_profile_name": "default",
+  "repos": [
+    {
+      "type": "git",
+      "path": "github.com/airblade/vim-gitgutter",
+      "version": "afa4f2ddf0fecb37914ec37357636abb18013422"
+    },
+    {
+      "type": "git",
+      "path": "github.com/vim-airline/vim-airline",
+      "version": "e0bde5dea4f1698e2f047d697035952b16690a87"
+    },
+    {
+      "type": "git",
+      "path": "github.com/morhetz/gruvbox",
+      "version": "cb4e7a5643f7d2dd40e694bcbd28c4b89b185e86"
+    },
+    {
+      "type": "git",
+      "path": "github.com/tpope/vim-fugitive",
+      "version": "d27dbc40d4264525b1c812482bf0efecfed53f28"
+    },
+    {
+      "type": "git",
+      "path": "github.com/w0rp/ale",
+      "version": "067601e9db7e0c2ab6c8394c9be74769463c6da9"
+    },
+    {
+      "type": "git",
+      "path": "github.com/mattn/emmet-vim",
+      "version": "19e3240bf31030e38406700f5dcaa593e3d6b102"
+    },
+    {
+      "type": "git",
+      "path": "github.com/edkolev/tmuxline.vim",
+      "version": "1142333aaef6b542f46ccd5c1e806bdd9382f005"
+    },
+    {
+      "type": "git",
+      "path": "github.com/jeffkreeftmeijer/vim-dim",
+      "version": "00d1b3beacf22cf061b95261d7afbba461701826"
+    },
+    {
+      "type": "git",
+      "path": "github.com/jdsimcoe/panic.vim",
+      "version": "a85e9073ba89576b1eba8d8f008a71eaba5e2cbc"
+    },
+    {
+      "type": "git",
+      "path": "github.com/ap/vim-css-color",
+      "version": "8d640e4c5d89dde55ef79d43fee1c8ecd12495b9"
+    },
+    {
+      "type": "git",
+      "path": "github.com/ryanoasis/vim-devicons",
+      "version": "ea5bbf0e2a960965accfa50a516773406a5b6b26"
+    },
+    {
+      "type": "git",
+      "path": "github.com/junegunn/fzf.vim",
+      "version": "f0acabf7e837e626c7102c30af890bccf79e33b7"
+    },
+    {
+      "type": "git",
+      "path": "github.com/junegunn/fzf",
+      "version": "5d16b288698ecec96080a5d576521d92550e78fd"
+    },
+    {
+      "type": "git",
+      "path": "github.com/scrooloose/nerdtree",
+      "version": "72c3656799289d4635520c28e17f737066ce19d6"
+    },
+    {
+      "type": "git",
+      "path": "github.com/editorconfig/editorconfig-vim",
+      "version": "68f8136d2b018bfa9b23403e87d3d65bc942cbc3"
+    }
+  ],
+  "profiles": [
+    {
+      "name": "default",
+      "repos_path": [
+        "github.com/airblade/vim-gitgutter",
+        "github.com/vim-airline/vim-airline",
+        "github.com/tpope/vim-fugitive",
+        "github.com/w0rp/ale",
+        "github.com/mattn/emmet-vim",
+        "github.com/edkolev/tmuxline.vim",
+        "github.com/morhetz/gruvbox",
+        "github.com/ap/vim-css-color",
+        "github.com/junegunn/fzf.vim",
+        "github.com/junegunn/fzf",
+        "github.com/scrooloose/nerdtree",
+        "github.com/editorconfig/editorconfig-vim"
+      ]
+    }
+  ]
+}
