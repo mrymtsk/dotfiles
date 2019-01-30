@@ -10,7 +10,7 @@
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "e0bde5dea4f1698e2f047d697035952b16690a87"
+      "version": "98bc6abde3860600e599c7ad17fdfb80809c04af"
     },
     {
       "type": "git",
@@ -30,7 +30,7 @@
     {
       "type": "git",
       "path": "github.com/mattn/emmet-vim",
-      "version": "19e3240bf31030e38406700f5dcaa593e3d6b102"
+      "version": "19f2821b7b457a2db7f7e4c25ade0b947b560fb0"
     },
     {
       "type": "git",
