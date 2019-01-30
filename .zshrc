@@ -74,3 +74,6 @@ export FZF_ALT_C_COMMAND="command find -L . -mindepth 1 \( -fstype 'sysfs' -o -f
 
 # Added by Krypton
 export GPG_TTY=$(tty)
+
+# Volt
+export VOLTPATH="/Users/Toshiki/.volt"
