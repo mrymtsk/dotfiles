@@ -22,7 +22,7 @@
     textconv = plutil -p
 [ghq]
 	root = /Users/Toshiki/.ghq
-    root = /Users/Toshiki/go/src
-    root = /Users/Toshiki/volt/repos
+    root = /Users/Toshiki/.go/src
+    root = /Users/Toshiki/.volt/repos
 [tag]
 	forceSignAnnotated = true

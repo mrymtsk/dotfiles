@@ -77,3 +77,6 @@ export GPG_TTY=$(tty)
 
 # Volt
 export VOLTPATH="/Users/Toshiki/.volt"
+
+# Go
+export GOPATH="/Users/Toshiki/.go"
