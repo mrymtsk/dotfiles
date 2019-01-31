@@ -22,7 +22,7 @@ zstyle ':completion:*:cd:*' ignore-parents parent pwd
 zstyle ':completion:*:descriptions' format '%BCompleting%b %U%d%u'
 zstyle ':completion:*:*files' ignored-patterns '*?~'
 
-export PATH="$HOME/bin:$HOME/script:$HOME/go/bin:/usr/local/opt/unzip/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="$HOME/bin:$HOME/script:/usr/local/opt/unzip/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/unzip/share/man:/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # Source Prezto.
@@ -80,3 +80,4 @@ export VOLTPATH="/Users/Toshiki/.volt"
 
 # Go
 export GOPATH="/Users/Toshiki/.go"
+export PATH="$GOPATH/bin:$PATH"
