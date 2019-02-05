@@ -5,7 +5,7 @@ SAVEHIST=1000
 bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/Users/Toshiki/.zshrc'
+zstyle :compinstall filename "${ZDOTDIR:-$HOME}/.zshrc"
 
 autoload -Uz compinit
 compinit
@@ -76,8 +76,8 @@ export FZF_ALT_C_COMMAND="command find -L . -mindepth 1 \( -fstype 'sysfs' -o -f
 export GPG_TTY=$(tty)
 
 # Volt
-export VOLTPATH="/Users/Toshiki/.volt"
+export VOLTPATH="$HOME/.volt"
 
 # Go
-export GOPATH="/Users/Toshiki/.go"
+export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
