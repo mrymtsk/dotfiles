@@ -62,7 +62,7 @@ if has('syntax') && has('eval') && !has('nvim')
   packadd! matchit
 endif
 
-set backupskip=/tmp/*,/private/tmp/*,/Users/Toshiki/Dropbox/Mackup/BitBarPlugins/*,/Users/Toshiki/dotfiles/.config/karabiner/assets/complex_modifications/*
+set backupskip=/tmp/*,/private/tmp/*,/Users/Toshiki/BitBarPlugins/*,/Users/Toshiki/dotfiles/.config/karabiner/assets/complex_modifications/*
 set number
 set expandtab
 set tabstop=4
