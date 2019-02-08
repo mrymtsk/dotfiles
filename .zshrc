@@ -20,7 +20,7 @@ compinit
 zstyle ':completion:*' menu select
 zstyle ':completion:*:cd:*' ignore-parents parent pwd
 zstyle ':completion:*:descriptions' format '%BCompleting%b %U%d%u'
-zstyle ':completion:*:*files' ignored-patterns '*?~'
+zstyle ':completion:*:*' ignored-patterns '*?~'
 
 export PATH="$HOME/bin:$HOME/script:/usr/local/opt/unzip/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/unzip/share/man:/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
