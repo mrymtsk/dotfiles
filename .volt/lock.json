@@ -5,12 +5,12 @@
     {
       "type": "git",
       "path": "github.com/airblade/vim-gitgutter",
-      "version": "afa4f2ddf0fecb37914ec37357636abb18013422"
+      "version": "fd834e48eed21cc3c3ab66779a2296a16f41cbca"
     },
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "25e384f2360ec3cdb584344cc2ea0d19f103d263"
+      "version": "1471330825a51fef66c5c36051d4ef8deb53c4b8"
     },
     {
       "type": "git",
@@ -20,17 +20,17 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "ed07f9a503e53ec3ca4d5e255acb078675f2ff0e"
+      "version": "ce8ddf37fc28dc705559edadb1c783c565fac0b6"
     },
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "4d426bf2873c6e1cd2c71e478c756903307628d3"
+      "version": "bf196ba17c9e261e4e3a9dba64260c6d0b2c8af9"
     },
     {
       "type": "git",
       "path": "github.com/mattn/emmet-vim",
-      "version": "19f2821b7b457a2db7f7e4c25ade0b947b560fb0"
+      "version": "d698f1658770ca5fa58c87e80421c8d65bbe9065"
     },
     {
       "type": "git",
