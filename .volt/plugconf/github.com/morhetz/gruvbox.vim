@@ -5,7 +5,9 @@ function! s:on_load_pre()
   " This configuration is executed *before* a plugin is loaded.
   set background=dark
   let g:gruvbox_italic=1
+  set termguicolors
   colorscheme gruvbox
+  highlight Normal guibg=NONE
 endfunction
 
 function! s:on_load_post()
