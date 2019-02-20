@@ -35,5 +35,5 @@ function! s:depends()
   " (the argument of :return must be list literal, and the elements are string)
   " e.g. return ['github.com/tyru/open-browser.vim']
 
-  return [ 'github.com/morhetz/gruvbox', 'github.com/tpope/vim-fugitive' ]
+  return []
 endfunction

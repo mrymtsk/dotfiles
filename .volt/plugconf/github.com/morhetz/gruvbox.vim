@@ -3,16 +3,16 @@
 function! s:on_load_pre()
   " Plugin configuration like the code written in vimrc.
   " This configuration is executed *before* a plugin is loaded.
-  set background=dark
-  let g:gruvbox_italic=1
-  set termguicolors
-  colorscheme gruvbox
-  highlight Normal guibg=NONE
 endfunction
 
 function! s:on_load_post()
   " Plugin configuration like the code written in vimrc.
   " This configuration is executed *after* a plugin is loaded.
+  set termguicolors
+  colorscheme gruvbox
+  let g:gruvbox_italic=1
+  set background=dark
+  highlight Normal guibg=NONE
 endfunction
 
 function! s:loaded_on()
@@ -38,5 +38,5 @@ function! s:depends()
   " (the argument of :return must be list literal, and the elements are string)
   " e.g. return ['github.com/tyru/open-browser.vim']
 
-  return []
+  return [ 'github.com/vim-airline/vim-airline' ]
 endfunction
