@@ -32,12 +32,6 @@ fi
 
 # Customize to your needs...
 
-autoload -Uz bashcompinit
-bashcompinit
-if [[ -s $HOME/go/src/github.com/vim-volt/volt/_contrib/completion/bash ]]; then
-    source $HOME/go/src/github.com/vim-volt/volt/_contrib/completion/bash
-fi
-
 # Custom alias
 alias zgit='cat ~/.zprezto/modules/git/alias.zsh | grep "alias " | grep'
 alias jobinfo='ssh ims-command jobinfo -h cclx -l -w -c'
@@ -92,3 +86,9 @@ export VOLTPATH="$HOME/.volt"
 # Go
 export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
+
+autoload -Uz bashcompinit
+bashcompinit
+if [[ -s $GOPATH/src/github.com/vim-volt/volt/_contrib/completion/bash ]]; then
+    source $GOPATH/src/github.com/vim-volt/volt/_contrib/completion/bash
+fi
