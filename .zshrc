@@ -71,6 +71,17 @@ source $HOME/.github_token
 export FZF_DEFAULT_COMMAND="set -o pipefail; command find -L . -mindepth 1 \( -name '*~' -o -fstype 'sysfs' -o -fstype 'devfs' -o -fstype 'devtmpfs' -o -fstype 'proc' \) -prune -o -type f -print -o -type l -print 2> /dev/null | cut -b3-"
 export FZF_CTRL_T_COMMAND="command find -L . -mindepth 1 \( -name '*~' -o -fstype 'sysfs' -o -fstype 'devfs' -o -fstype 'devtmpfs' -o -fstype 'proc' \) -prune -o -type f -print -o -type d -print -o -type l -print 2> /dev/null | cut -b3-"
 export FZF_ALT_C_COMMAND="command find -L . -mindepth 1 \( -fstype 'sysfs' -o -fstype 'devfs' -o -fstype 'devtmpfs' -o -fstype 'proc' \) -prune -o -type d -print 2> /dev/null | cut -b3-"
+_fzf_compgen_path() {
+    echo "$1"
+    command find -L "$1" \
+        -name .git -prune -o -name .svn -prune -o -name '*~' -prune -o \( -type d -o -type f -o -type l \) \
+        -a -not -path "$1" -print 2> /dev/null | sed 's@^\./@@'
+}
+_fzf_compgen_dir() {
+    command find -L "$1" \
+        -name .git -prune -o -name .svn -prune -o -name '*~' -prune -o -type d \
+        -a -not -path "$1" -print 2> /dev/null | sed 's@^\./@@'
+}
 
 # Added by Krypton
 export GPG_TTY=$(tty)
