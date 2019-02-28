@@ -5,12 +5,12 @@
     {
       "type": "git",
       "path": "github.com/airblade/vim-gitgutter",
-      "version": "3ce2a4be25429e8f1e8f699601ec5f1c8879c574"
+      "version": "78db200b12d5322f43ac518adc8da0d90864a552"
     },
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "448aa43ec4bb49dfb3f75c3e52aad41eec9ee2ce"
+      "version": "1c3ae6077af76927f82f87e05a7b9fdfba47ce2c"
     },
     {
       "type": "git",
@@ -20,12 +20,12 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "a489c6e1d3fc265242fabfd171021b0ea02dacf8"
+      "version": "a69b0b0fd6d88acb39433117f541fb8930287a86"
     },
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "fefc093e707716da755ca2c326f852495f1b56fb"
+      "version": "c4328f2a31a8acac96ca8d7615231812bad700bf"
     },
     {
       "type": "git",
@@ -60,7 +60,7 @@
     {
       "type": "git",
       "path": "github.com/junegunn/fzf.vim",
-      "version": "f0acabf7e837e626c7102c30af890bccf79e33b7"
+      "version": "b31512e2a2d062ee4b6eb38864594c83f1ad2c2f"
     },
     {
       "type": "git",
@@ -70,7 +70,7 @@
     {
       "type": "git",
       "path": "github.com/scrooloose/nerdtree",
-      "version": "f4d2b301b71ccb1b5a7742f63638828073424dc1"
+      "version": "84737f2ebe533ffac9ebc21da8d1f57216962641"
     },
     {
       "type": "git",
@@ -87,7 +87,6 @@
         "github.com/tpope/vim-fugitive",
         "github.com/w0rp/ale",
         "github.com/mattn/emmet-vim",
-        "github.com/edkolev/tmuxline.vim",
         "github.com/morhetz/gruvbox",
         "github.com/ap/vim-css-color",
         "github.com/junegunn/fzf.vim",
