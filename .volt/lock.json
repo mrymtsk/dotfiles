@@ -5,7 +5,7 @@
     {
       "type": "git",
       "path": "github.com/airblade/vim-gitgutter",
-      "version": "78db200b12d5322f43ac518adc8da0d90864a552"
+      "version": "5c8efd3625b7f5a586ad3ce5922ad45ae5661393"
     },
     {
       "type": "git",
@@ -20,12 +20,12 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "a69b0b0fd6d88acb39433117f541fb8930287a86"
+      "version": "bd0b87d36ad80e8acd94f22028d15ebb441b1c28"
     },
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "c4328f2a31a8acac96ca8d7615231812bad700bf"
+      "version": "e5746d9a83a351144b4defb91f65cae7917766b5"
     },
     {
       "type": "git",
