@@ -87,9 +87,6 @@ _fzf_compgen_dir() {
         -a -not -path "$1" -print 2> /dev/null | sed 's@^\./@@'
 }
 
-# Added by Krypton
-export GPG_TTY=$(tty)
-
 # Volt
 export VOLTPATH="$HOME/.volt"
 

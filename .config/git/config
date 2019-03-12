@@ -8,10 +8,6 @@
 [alias]
 	graph = log --graph --date-order --all --pretty=format:'%h %Cred%D %Cgreen%ad %Cblue%cn %Creset%s' --date=short
 [core]
-[gpg]
-	program = /usr/local/bin/krgpg
-[commit]
-	gpgSign = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
