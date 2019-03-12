@@ -22,8 +22,18 @@ zstyle ':completion:*:cd:*' ignore-parents parent pwd
 zstyle ':completion:*:descriptions' format '%BCompleting%b %U%d%u'
 zstyle ':completion:*:*' ignored-patterns '*?~'
 
-export PATH="$HOME/bin:$HOME/script:/usr/local/opt/unzip/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export MANPATH="/usr/local/opt/unzip/share/man:/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+GNUBIN="\
+/usr/local/opt/coreutils/libexec/gnubin:\
+/usr/local/opt/gnu-indent/libexec/gnubin:\
+/usr/local/opt/gnu-tar/libexec/gnubin:\
+/usr/local/opt/ed/libexec/gnubin:\
+/usr/local/opt/grep/libexec/gnubin:\
+/usr/local/opt/gnu-sed/libexec/gnubin:\
+/usr/local/opt/gawk/libexec/gnubin:\
+/usr/local/opt/gnu-time/libexec/gnubin:\
+/usr/local/opt/findutils/libexec/gnubin:\
+/usr/local/opt/gnu-which/libexec/gnubin"
+export PATH="$HOME/bin:$HOME/script:$GNUBIN:$PATH"
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
