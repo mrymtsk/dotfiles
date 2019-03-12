@@ -34,7 +34,7 @@ fi
 
 # Custom alias
 alias zgit='cat ~/.zprezto/modules/git/alias.zsh | grep "alias " | grep'
-alias jobinfo='ssh ims-command jobinfo -h cclx -l -w -c'
+alias joblist='ssh ims-command joblist'
 
 # Locale environmental variables
 export LC_ALL=en_US.UTF-8
