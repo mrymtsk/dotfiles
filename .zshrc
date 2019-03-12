@@ -95,3 +95,8 @@ fi
 
 # z
 . /usr/local/etc/profile.d/z.sh
+
+# sshmount
+if [[ -s "$HOME/.sshmnt.sh" ]]; then
+    source "$HOME/.sshmnt.sh"
+fi
