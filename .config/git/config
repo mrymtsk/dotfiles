@@ -3,11 +3,16 @@
 # Please adapt and uncomment the following lines:
 	name = Toshiki Murayama
 	email = murayama.toshiki@gmail.com
+	signingkey = 0817A906587A449F
 [color]
 	ui = true
 [alias]
 	graph = log --graph --date-order --all --pretty=format:'%h %Cred%D %Cgreen%ad %Cblue%cn %Creset%s' --date=short
 [core]
+[gpg]
+	program = gpg
+[commit]
+    gpgSign = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
