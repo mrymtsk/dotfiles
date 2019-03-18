@@ -94,12 +94,6 @@ export VOLTPATH="$HOME/.volt"
 export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
 
-autoload -Uz bashcompinit
-bashcompinit
-if [[ -s $GOPATH/src/github.com/vim-volt/volt/_contrib/completion/bash ]]; then
-    source $GOPATH/src/github.com/vim-volt/volt/_contrib/completion/bash
-fi
-
 # z
 . /usr/local/etc/profile.d/z.sh
 
