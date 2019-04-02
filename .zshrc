@@ -1,3 +1,4 @@
+MAILCHECK=0
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
@@ -33,7 +34,8 @@ GNUBIN="\
 /usr/local/opt/gnu-time/libexec/gnubin:\
 /usr/local/opt/findutils/libexec/gnubin:\
 /usr/local/opt/gnu-which/libexec/gnubin"
-export PATH="$HOME/bin:$HOME/script:$GNUBIN:$PATH"
+export PATH="${ZDOTDIR:-$HOME}/opt/bin:${ZDOTDIR:-$HOME}/script:$GNUBIN:$PATH"
+export LD_LIBRARY_PATH="${ZDOTDIR:-$HOME}/opt/lib:$LD_LIBRARY_PATH"
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
@@ -51,7 +53,9 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # hub alias
-eval "$(hub alias -s)"
+if type hub >/dev/null 2>&1; then
+    eval "$(hub alias -s)"
+fi
 
 autoload -Uz colors
 colors
@@ -68,7 +72,9 @@ chpwd() {
 }
 
 # GitHub Token
-source $HOME/.github_token
+if [[ -s $HOME/.github_token ]]; then
+    source $HOME/.github_token
+fi
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -95,7 +101,9 @@ export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
 
 # z
-. /usr/local/etc/profile.d/z.sh
+if [[ -x /usr/local/etc/profile.d/z.sh ]]; then
+    . /usr/local/etc/profile.d/z.sh
+fi
 
 # sshmount
 if [[ -s "$HOME/.sshmnt.sh" ]]; then
