@@ -10,7 +10,7 @@
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "b84e5485221096dc8c2bbc18f130e52265b367cc"
+      "version": "86e73cade71651263715f21e58eed87cfed4518e"
     },
     {
       "type": "git",
@@ -25,7 +25,7 @@
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "80ef7ea2d0b22f0d8de7387a3d5bf6e9e5b72e9d"
+      "version": "89273b65b8de9d3d428e7b1f5c0c347938f5a863"
     },
     {
       "type": "git",
@@ -65,12 +65,12 @@
     {
       "type": "git",
       "path": "github.com/junegunn/fzf",
-      "version": "315e568de006e80138f79c77d5508c7e4853e6b2"
+      "version": "ff951341c993ed84ad65344e496e122ee3dddf67"
     },
     {
       "type": "git",
       "path": "github.com/scrooloose/nerdtree",
-      "version": "288669db1fa888947deaf715d7469233f476909f"
+      "version": "7513f256aa1d59b6a749cefe5ac505375b1b8a6a"
     },
     {
       "type": "git",
