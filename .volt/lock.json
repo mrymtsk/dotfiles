@@ -20,12 +20,12 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "bd0b87d36ad80e8acd94f22028d15ebb441b1c28"
+      "version": "60eac8c97457af5a96eb06ad4b564e4c813d806e"
     },
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "89273b65b8de9d3d428e7b1f5c0c347938f5a863"
+      "version": "02af53b8b0a9a47c4e66e52747d98ee74bbb8118"
     },
     {
       "type": "git",
