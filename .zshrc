@@ -1,3 +1,5 @@
+MAILCHECK=0
+
 GNUBIN="\
 /usr/local/opt/coreutils/libexec/gnubin:\
 /usr/local/opt/gnu-indent/libexec/gnubin:\
@@ -16,7 +18,7 @@ export LD_LIBRARY_PATH="${ZDOTDIR:-$HOME}/opt/lib:$LD_LIBRARY_PATH"
 tmuxconf="${ZDOTDIR:-$HOME}/.tmux.conf"
 tmuxsocket="mrymtsk"
 if [[ -z $TMUX ]]; then
-    if [[ $(hostname | grep 'ccfep[2-8]') ]]; then
+    if [[ -n $(hostname | grep 'ccfep[2-8]') ]]; then
         ssh ccfep1.ims.ac.jp -o RequestTTY=force -o ForwardX11=yes -o ForwardX11Trusted=yes env ZDOTDIR=/lustre/home/users/jw9/Murayama zsh
         exit 0
     fi
@@ -28,7 +30,6 @@ if [[ -z $TMUX ]]; then
     exit 0
 fi
 
-MAILCHECK=0
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
