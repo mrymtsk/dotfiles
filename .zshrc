@@ -63,7 +63,7 @@ fi
 
 # Custom alias
 alias zgit='cat ~/.zprezto/modules/git/alias.zsh | grep "alias " | grep'
-alias joblist='ssh ims-command joblist'
+alias vim="vim -u ${ZDOTDIR:-$HOME}/.vim/vimrc"
 
 # Locale environmental variables
 export LC_ALL=en_US.UTF-8
@@ -111,11 +111,8 @@ _fzf_compgen_dir() {
 }
 
 # Volt
-export VOLTPATH="$HOME/.volt"
-
-# Go
-export GOPATH="$HOME/.go"
-export PATH="$GOPATH/bin:$PATH"
+export VOLTPATH="${ZDOTDIR:-$HOME}/.volt"
+export VOLT_VIM_DIR="${ZDOTDIR:-$HOME}/.vim"
 
 # z
 if [[ -x /usr/local/etc/profile.d/z.sh ]]; then
@@ -126,3 +123,5 @@ fi
 if [[ -s "$HOME/.sshmnt.sh" ]]; then
     source "$HOME/.sshmnt.sh"
 fi
+
+typeset -U path PATH
