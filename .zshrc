@@ -1,3 +1,33 @@
+GNUBIN="\
+/usr/local/opt/coreutils/libexec/gnubin:\
+/usr/local/opt/gnu-indent/libexec/gnubin:\
+/usr/local/opt/gnu-tar/libexec/gnubin:\
+/usr/local/opt/ed/libexec/gnubin:\
+/usr/local/opt/grep/libexec/gnubin:\
+/usr/local/opt/gnu-sed/libexec/gnubin:\
+/usr/local/opt/gawk/libexec/gnubin:\
+/usr/local/opt/gnu-time/libexec/gnubin:\
+/usr/local/opt/findutils/libexec/gnubin:\
+/usr/local/opt/gnu-which/libexec/gnubin"
+export PATH="${ZDOTDIR:-$HOME}/opt/bin:${ZDOTDIR:-$HOME}/script:$GNUBIN:$PATH"
+export LD_LIBRARY_PATH="${ZDOTDIR:-$HOME}/opt/lib:$LD_LIBRARY_PATH"
+
+# TMUX
+tmuxconf="${ZDOTDIR:-$HOME}/.tmux.conf"
+tmuxsocket="mrymtsk"
+if [[ -z $TMUX ]]; then
+    if [[ $(hostname | grep 'ccfep[2-8]') ]]; then
+        ssh ccfep1.ims.ac.jp -o RequestTTY=force -o ForwardX11=yes -o ForwardX11Trusted=yes env ZDOTDIR=/lustre/home/users/jw9/Murayama zsh
+        exit 0
+    fi
+    if [[ -z $(tmux -L $tmuxsocket list-sessions) ]]; then
+        tmux -f $tmuxconf -L $tmuxsocket new-session
+    else
+        tmux -f $tmuxconf -L $tmuxsocket attach
+    fi
+    exit 0
+fi
+
 MAILCHECK=0
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -22,20 +52,6 @@ zstyle ':completion:*' menu select
 zstyle ':completion:*:cd:*' ignore-parents parent pwd
 zstyle ':completion:*:descriptions' format '%BCompleting%b %U%d%u'
 zstyle ':completion:*:*' ignored-patterns '*?~'
-
-GNUBIN="\
-/usr/local/opt/coreutils/libexec/gnubin:\
-/usr/local/opt/gnu-indent/libexec/gnubin:\
-/usr/local/opt/gnu-tar/libexec/gnubin:\
-/usr/local/opt/ed/libexec/gnubin:\
-/usr/local/opt/grep/libexec/gnubin:\
-/usr/local/opt/gnu-sed/libexec/gnubin:\
-/usr/local/opt/gawk/libexec/gnubin:\
-/usr/local/opt/gnu-time/libexec/gnubin:\
-/usr/local/opt/findutils/libexec/gnubin:\
-/usr/local/opt/gnu-which/libexec/gnubin"
-export PATH="${ZDOTDIR:-$HOME}/opt/bin:${ZDOTDIR:-$HOME}/script:$GNUBIN:$PATH"
-export LD_LIBRARY_PATH="${ZDOTDIR:-$HOME}/opt/lib:$LD_LIBRARY_PATH"
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
