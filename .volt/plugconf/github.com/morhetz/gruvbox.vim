@@ -12,7 +12,6 @@ function! s:on_load_post()
   colorscheme gruvbox
   let g:gruvbox_italic=1
   set background=dark
-  highlight Normal guibg=NONE
 endfunction
 
 function! s:loaded_on()
