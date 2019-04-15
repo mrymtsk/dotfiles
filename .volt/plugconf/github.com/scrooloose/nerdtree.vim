@@ -8,6 +8,8 @@ endfunction
 function! s:on_load_post()
   " Plugin configuration like the code written in vimrc.
   " This configuration is executed *after* a plugin is loaded.
+  let g:NERDTreeShowHidden=1
+  nnoremap <Leader>dir :NERDTreeToggle<CR>
 endfunction
 
 function! s:loaded_on()

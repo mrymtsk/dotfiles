@@ -69,6 +69,7 @@ set tabstop=4
 set shiftwidth=4
 set encoding=UTF-8
 set signcolumn=yes
+let mapleader="\<Space>"
 
 if hostname() =~? "ccfep"
   set runtimepath^=/lustre/home/users/jw9/Murayama/.vim runtimepath+=/lustre/home/users/jw9/Murayama/.vim/after
