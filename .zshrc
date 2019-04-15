@@ -19,7 +19,7 @@ tmuxconf="${ZDOTDIR:-$HOME}/.tmux.conf"
 tmuxsocket="mrymtsk"
 if [[ -z $TMUX ]]; then
     if [[ -n $(hostname | grep 'ccfep[2-8]') ]]; then
-        ssh ccfep1.ims.ac.jp -o RequestTTY=force -o ForwardX11=yes -o ForwardX11Trusted=yes env ZDOTDIR=/lustre/home/users/jw9/Murayama zsh
+        ssh ccfep1.ims.ac.jp -o RequestTTY=force env ZDOTDIR=${ZDOTDIR:-$HOME} zsh
         exit 0
     fi
     if [[ -z $(tmux -L $tmuxsocket list-sessions) ]]; then
