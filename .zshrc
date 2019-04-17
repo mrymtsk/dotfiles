@@ -13,6 +13,7 @@ GNUBIN="\
 /usr/local/opt/gnu-which/libexec/gnubin"
 export PATH="${ZDOTDIR:-$HOME}/opt/bin:${ZDOTDIR:-$HOME}/script:$GNUBIN:$PATH"
 export LD_LIBRARY_PATH="${ZDOTDIR:-$HOME}/opt/lib:$LD_LIBRARY_PATH"
+export XDG_CONFIG_HOME="${ZDOTDIR:-$HOME}/.config"
 
 # TMUX
 tmuxconf="${ZDOTDIR:-$HOME}/.tmux.conf"
