@@ -9,6 +9,7 @@ function! s:on_load_post()
   " Plugin configuration like the code written in vimrc.
   " This configuration is executed *after* a plugin is loaded.
   set termguicolors
+  let g:onedark_terminal_italics=1
   colorscheme onedark
 endfunction
 
