@@ -116,7 +116,7 @@ export VOLTPATH="${ZDOTDIR:-$HOME}/.volt"
 export VOLT_VIM_DIR="${ZDOTDIR:-$HOME}/.vim"
 
 # z
-if [[ -x /usr/local/etc/profile.d/z.sh ]]; then
+if [[ -s /usr/local/etc/profile.d/z.sh ]]; then
     . /usr/local/etc/profile.d/z.sh
 fi
 
