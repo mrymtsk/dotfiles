@@ -10,7 +10,7 @@
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "773f0e36376cfc4191eb31be06138d01a0ee3863"
+      "version": "ead2cd63bbe4ceec161f9634c8b52048551f91b4"
     },
     {
       "type": "git",
@@ -20,12 +20,12 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "60eac8c97457af5a96eb06ad4b564e4c813d806e"
+      "version": "1ac2c707e53b4f598ce6502c7bd9a028f1ec5ce4"
     },
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "3a010f68b8c6e18bfa19fe6cc1e5d23a6e6484b4"
+      "version": "01331266a84859d4b0935b81ae773ff0d7af7522"
     },
     {
       "type": "git",
@@ -65,12 +65,12 @@
     {
       "type": "git",
       "path": "github.com/junegunn/fzf",
-      "version": "ff951341c993ed84ad65344e496e122ee3dddf67"
+      "version": "ef492f6178ba0349e93d8180006b41bc1dc0afc1"
     },
     {
       "type": "git",
       "path": "github.com/scrooloose/nerdtree",
-      "version": "7513f256aa1d59b6a749cefe5ac505375b1b8a6a"
+      "version": "3c0633578281463638235597d8208612544606ae"
     },
     {
       "type": "git",
@@ -81,6 +81,11 @@
       "type": "git",
       "path": "github.com/joshdick/onedark.vim",
       "version": "d8d5f7fe71ac71194fac24433989b6fbd2deb48d"
+    },
+    {
+      "type": "git",
+      "path": "github.com/sheerun/vim-polyglot",
+      "version": "9fd5c11a20f88525088c8635a3bc6a25ec4c05c7"
     }
   ],
   "profiles": [
@@ -97,7 +102,8 @@
         "github.com/junegunn/fzf",
         "github.com/scrooloose/nerdtree",
         "github.com/editorconfig/editorconfig-vim",
-        "github.com/joshdick/onedark.vim"
+        "github.com/joshdick/onedark.vim",
+        "github.com/sheerun/vim-polyglot"
       ]
     }
   ]
