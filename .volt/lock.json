@@ -10,7 +10,7 @@
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "ead2cd63bbe4ceec161f9634c8b52048551f91b4"
+      "version": "9a1acf144fd63cae6f48a3b445958d737c0b167e"
     },
     {
       "type": "git",
@@ -20,12 +20,12 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "1ac2c707e53b4f598ce6502c7bd9a028f1ec5ce4"
+      "version": "5d99841b22928f1597d447c68de844989bf9a804"
     },
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "01331266a84859d4b0935b81ae773ff0d7af7522"
+      "version": "f444abdfe66696505cb891889b18c4144d12d4ea"
     },
     {
       "type": "git",
@@ -50,7 +50,7 @@
     {
       "type": "git",
       "path": "github.com/ap/vim-css-color",
-      "version": "8d640e4c5d89dde55ef79d43fee1c8ecd12495b9"
+      "version": "10eae530889331457b738b28eafcfa3789481fcd"
     },
     {
       "type": "git",
@@ -60,17 +60,17 @@
     {
       "type": "git",
       "path": "github.com/junegunn/fzf.vim",
-      "version": "b31512e2a2d062ee4b6eb38864594c83f1ad2c2f"
+      "version": "ac4e7bfb36c88d27799c080218cea3bb833bdbd9"
     },
     {
       "type": "git",
       "path": "github.com/junegunn/fzf",
-      "version": "ef492f6178ba0349e93d8180006b41bc1dc0afc1"
+      "version": "430e8193e07952bc09f0469affdb04a67d1a71e7"
     },
     {
       "type": "git",
       "path": "github.com/scrooloose/nerdtree",
-      "version": "3c0633578281463638235597d8208612544606ae"
+      "version": "67fa9b3116948466234978aa6287649f98e666bd"
     },
     {
       "type": "git",
@@ -80,12 +80,12 @@
     {
       "type": "git",
       "path": "github.com/joshdick/onedark.vim",
-      "version": "d8d5f7fe71ac71194fac24433989b6fbd2deb48d"
+      "version": "7f36f83f13d3bdbd3dca4e3e8b2a10a5ecdca5e9"
     },
     {
       "type": "git",
       "path": "github.com/sheerun/vim-polyglot",
-      "version": "9fd5c11a20f88525088c8635a3bc6a25ec4c05c7"
+      "version": "aebef2c2e76b88384b1121c237c965e8cf8b3bcb"
     }
   ],
   "profiles": [
