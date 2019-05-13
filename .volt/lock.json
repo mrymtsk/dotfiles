@@ -25,7 +25,7 @@
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "f444abdfe66696505cb891889b18c4144d12d4ea"
+      "version": "aa047b5ba3f3e16d18c54a0afb94642dc7568f78"
     },
     {
       "type": "git",
@@ -86,6 +86,11 @@
       "type": "git",
       "path": "github.com/sheerun/vim-polyglot",
       "version": "aebef2c2e76b88384b1121c237c965e8cf8b3bcb"
+    },
+    {
+      "type": "git",
+      "path": "github.com/mrymtsk/orca-vim",
+      "version": "be2293f2bff4736a3a17802bf3e3a69955500169"
     }
   ],
   "profiles": [
@@ -103,7 +108,8 @@
         "github.com/scrooloose/nerdtree",
         "github.com/editorconfig/editorconfig-vim",
         "github.com/joshdick/onedark.vim",
-        "github.com/sheerun/vim-polyglot"
+        "github.com/sheerun/vim-polyglot",
+        "github.com/mrymtsk/orca-vim"
       ]
     }
   ]
