@@ -20,7 +20,7 @@ tmuxconf="${ZDOTDIR:-$HOME}/.tmux.conf"
 tmuxsocket="mrymtsk"
 if [[ -z $TMUX ]]; then
     if [[ -n $(hostname | grep 'ccfep[2-8]') ]]; then
-        ssh ccfep1.ims.ac.jp -o RequestTTY=force env ZDOTDIR=${ZDOTDIR:-$HOME} zsh
+        ssh ccfep1.ims.ac.jp -o RequestTTY=force env COLORTERM=$COLORTERM ZDOTDIR=${ZDOTDIR:-$HOME} zsh
         exit 0
     fi
     if [[ -z $(tmux -L $tmuxsocket list-sessions) ]]; then
@@ -110,6 +110,9 @@ _fzf_compgen_dir() {
         -name .git -prune -o -name .svn -prune -o -name '*~' -prune -o -type d \
         -a -not -path "$1" -print 2> /dev/null | sed 's@^\./@@'
 }
+
+# Go
+export GOPATH="${ZDOTDIR:-$HOME}/.go"
 
 # Volt
 export VOLTPATH="${ZDOTDIR:-$HOME}/.volt"
