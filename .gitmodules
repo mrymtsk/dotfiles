@@ -1,0 +1,6 @@
+[submodule ".config/bat/syntaxes/orca-sublime"]
+	path = .config/bat/syntaxes/orca-sublime
+	url = https://github.com/mrymtsk/orca-sublime
+[submodule ".config/bat/themes/one-dark-theme"]
+	path = .config/bat/themes/one-dark-theme
+	url = https://github.com/andresmichel/one-dark-theme
