@@ -5,32 +5,22 @@
     {
       "type": "git",
       "path": "github.com/airblade/vim-gitgutter",
-      "version": "7eeea63e62b1cc088a75c7a7c244fc774d82e5bb"
+      "version": "a4e8d3f188180114501a77baa005e408cfd1f0f6"
     },
     {
       "type": "git",
-      "path": "github.com/vim-airline/vim-airline",
-      "version": "9a1acf144fd63cae6f48a3b445958d737c0b167e"
+      "path": "github.com/ap/vim-css-color",
+      "version": "8a84356d5319cad3da2835bd5fbc6318500f31ce"
     },
     {
       "type": "git",
-      "path": "github.com/morhetz/gruvbox",
-      "version": "cb4e7a5643f7d2dd40e694bcbd28c4b89b185e86"
+      "path": "github.com/arcticicestudio/nord-vim",
+      "version": "311d964d3ae0063b4394eae1bac5559d4fd717b1"
     },
     {
       "type": "git",
-      "path": "github.com/tpope/vim-fugitive",
-      "version": "5d99841b22928f1597d447c68de844989bf9a804"
-    },
-    {
-      "type": "git",
-      "path": "github.com/w0rp/ale",
-      "version": "aa047b5ba3f3e16d18c54a0afb94642dc7568f78"
-    },
-    {
-      "type": "git",
-      "path": "github.com/mattn/emmet-vim",
-      "version": "ae7d31f29080ad18073dda3530582dacb18475e6"
+      "path": "github.com/editorconfig/editorconfig-vim",
+      "version": "37bedf88cabb61d4580295b6e347058df7e7f1b4"
     },
     {
       "type": "git",
@@ -39,18 +29,43 @@
     },
     {
       "type": "git",
-      "path": "github.com/jeffkreeftmeijer/vim-dim",
-      "version": "00d1b3beacf22cf061b95261d7afbba461701826"
-    },
-    {
-      "type": "git",
       "path": "github.com/jdsimcoe/panic.vim",
       "version": "a85e9073ba89576b1eba8d8f008a71eaba5e2cbc"
     },
     {
       "type": "git",
-      "path": "github.com/ap/vim-css-color",
-      "version": "10eae530889331457b738b28eafcfa3789481fcd"
+      "path": "github.com/jeffkreeftmeijer/vim-dim",
+      "version": "00d1b3beacf22cf061b95261d7afbba461701826"
+    },
+    {
+      "type": "git",
+      "path": "github.com/joshdick/onedark.vim",
+      "version": "91128e1819d9e377c8b59c1617a57bdfd4f4e8a6"
+    },
+    {
+      "type": "git",
+      "path": "github.com/junegunn/fzf",
+      "version": "12ce76b56a769a7a9845ba98bf019a0a0e811ba1"
+    },
+    {
+      "type": "git",
+      "path": "github.com/junegunn/fzf.vim",
+      "version": "5c87ab86c0e7b0ec8a5edd39a4ce5500bb9e9333"
+    },
+    {
+      "type": "git",
+      "path": "github.com/mattn/emmet-vim",
+      "version": "0414b53a23c1da180370bf1228b8553fc5022e3f"
+    },
+    {
+      "type": "git",
+      "path": "github.com/morhetz/gruvbox",
+      "version": "cb4e7a5643f7d2dd40e694bcbd28c4b89b185e86"
+    },
+    {
+      "type": "git",
+      "path": "github.com/mrymtsk/orca-vim",
+      "version": "b9359672495ab243d784cf2af2a1f9c2bb493351"
     },
     {
       "type": "git",
@@ -59,28 +74,8 @@
     },
     {
       "type": "git",
-      "path": "github.com/junegunn/fzf.vim",
-      "version": "ac4e7bfb36c88d27799c080218cea3bb833bdbd9"
-    },
-    {
-      "type": "git",
-      "path": "github.com/junegunn/fzf",
-      "version": "430e8193e07952bc09f0469affdb04a67d1a71e7"
-    },
-    {
-      "type": "git",
       "path": "github.com/scrooloose/nerdtree",
       "version": "67fa9b3116948466234978aa6287649f98e666bd"
-    },
-    {
-      "type": "git",
-      "path": "github.com/editorconfig/editorconfig-vim",
-      "version": "68f8136d2b018bfa9b23403e87d3d65bc942cbc3"
-    },
-    {
-      "type": "git",
-      "path": "github.com/joshdick/onedark.vim",
-      "version": "7f36f83f13d3bdbd3dca4e3e8b2a10a5ecdca5e9"
     },
     {
       "type": "git",
@@ -89,8 +84,18 @@
     },
     {
       "type": "git",
-      "path": "github.com/mrymtsk/orca-vim",
-      "version": "be2293f2bff4736a3a17802bf3e3a69955500169"
+      "path": "github.com/tpope/vim-fugitive",
+      "version": "41a734ef49c78cfdb97426cda811ee99c39e011a"
+    },
+    {
+      "type": "git",
+      "path": "github.com/vim-airline/vim-airline",
+      "version": "48d9d5e901b3d914428094f5a5235aba95ca138b"
+    },
+    {
+      "type": "git",
+      "path": "github.com/w0rp/ale",
+      "version": "eb6015c6fd43d1630046556b2598e8c52c203e6a"
     }
   ],
   "profiles": [
@@ -98,18 +103,18 @@
       "name": "default",
       "repos_path": [
         "github.com/airblade/vim-gitgutter",
-        "github.com/vim-airline/vim-airline",
-        "github.com/tpope/vim-fugitive",
-        "github.com/w0rp/ale",
-        "github.com/mattn/emmet-vim",
         "github.com/ap/vim-css-color",
-        "github.com/junegunn/fzf.vim",
-        "github.com/junegunn/fzf",
-        "github.com/scrooloose/nerdtree",
+        "github.com/arcticicestudio/nord-vim",
         "github.com/editorconfig/editorconfig-vim",
-        "github.com/joshdick/onedark.vim",
+        "github.com/junegunn/fzf",
+        "github.com/junegunn/fzf.vim",
+        "github.com/mattn/emmet-vim",
+        "github.com/mrymtsk/orca-vim",
+        "github.com/scrooloose/nerdtree",
         "github.com/sheerun/vim-polyglot",
-        "github.com/mrymtsk/orca-vim"
+        "github.com/tpope/vim-fugitive",
+        "github.com/vim-airline/vim-airline",
+        "github.com/w0rp/ale"
       ]
     }
   ]

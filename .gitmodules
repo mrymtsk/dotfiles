@@ -4,3 +4,6 @@
 [submodule ".config/bat/themes/one-dark-theme"]
 	path = .config/bat/themes/one-dark-theme
 	url = https://github.com/andresmichel/one-dark-theme
+[submodule ".config/bat/themes/nord-sublime-text"]
+	path = .config/bat/themes/nord-sublime-text
+	url = https://github.com/arcticicestudio/nord-sublime-text
