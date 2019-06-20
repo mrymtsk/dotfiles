@@ -8,6 +8,8 @@ endfunction
 " Plugin configuration like the code written in vimrc.
 " This configuration is executed *after* a plugin is loaded.
 function! s:on_load_post()
+  let g:nord_uniform_diff_background = 1
+  let g:nord_bold_vertical_split_line = 1
   let g:nord_italic = 1
   let g:nord_italic_comments = 1
   let g:nord_underline = 1
