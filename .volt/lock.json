@@ -5,17 +5,17 @@
     {
       "type": "git",
       "path": "github.com/airblade/vim-gitgutter",
-      "version": "a4e8d3f188180114501a77baa005e408cfd1f0f6"
+      "version": "8aac968f1a617cc1c346707242af181e6b1f467e"
     },
     {
       "type": "git",
       "path": "github.com/ap/vim-css-color",
-      "version": "8a84356d5319cad3da2835bd5fbc6318500f31ce"
+      "version": "5a31c72cc51cb11118e44fb50ff77fc596348f77"
     },
     {
       "type": "git",
       "path": "github.com/arcticicestudio/nord-vim",
-      "version": "311d964d3ae0063b4394eae1bac5559d4fd717b1"
+      "version": "81d80e4a978aaab77e930b094bfb6780f695b438"
     },
     {
       "type": "git",
@@ -45,17 +45,17 @@
     {
       "type": "git",
       "path": "github.com/junegunn/fzf",
-      "version": "12ce76b56a769a7a9845ba98bf019a0a0e811ba1"
+      "version": "951746297e26159cd45501030c56eca4bea4e277"
     },
     {
       "type": "git",
       "path": "github.com/junegunn/fzf.vim",
-      "version": "5c87ab86c0e7b0ec8a5edd39a4ce5500bb9e9333"
+      "version": "91ed5f4b39b6e4a2ca50be1c8cec7e1148145fab"
     },
     {
       "type": "git",
       "path": "github.com/mattn/emmet-vim",
-      "version": "0414b53a23c1da180370bf1228b8553fc5022e3f"
+      "version": "5a7c7930c675220121e62d8eecfdbee653e95bac"
     },
     {
       "type": "git",
@@ -65,7 +65,7 @@
     {
       "type": "git",
       "path": "github.com/mrymtsk/orca-vim",
-      "version": "b9359672495ab243d784cf2af2a1f9c2bb493351"
+      "version": "a7813b77e7aa5051a3efa76a35dc2b40e87cfeab"
     },
     {
       "type": "git",
@@ -75,27 +75,27 @@
     {
       "type": "git",
       "path": "github.com/scrooloose/nerdtree",
-      "version": "67fa9b3116948466234978aa6287649f98e666bd"
+      "version": "b213fae7798d21ea9351cd90d54408d80be20fe6"
     },
     {
       "type": "git",
       "path": "github.com/sheerun/vim-polyglot",
-      "version": "aebef2c2e76b88384b1121c237c965e8cf8b3bcb"
+      "version": "d52700284984ada048ce325404dfa25237271ba1"
     },
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "41a734ef49c78cfdb97426cda811ee99c39e011a"
+      "version": "6d42c7df44aa20252e5dac747c3ac9fa7450b21b"
     },
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "48d9d5e901b3d914428094f5a5235aba95ca138b"
+      "version": "2db9b27e39bfd84cb432e001b4a3f41f633b3b7e"
     },
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "eb6015c6fd43d1630046556b2598e8c52c203e6a"
+      "version": "9ad8fd6a1bdff5f0c80cf921df5628d1d322cf82"
     }
   ],
   "profiles": [
