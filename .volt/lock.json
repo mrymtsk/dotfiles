@@ -5,7 +5,7 @@
     {
       "type": "git",
       "path": "github.com/airblade/vim-gitgutter",
-      "version": "8aac968f1a617cc1c346707242af181e6b1f467e"
+      "version": "91471746fe687ee867877508dfd809460dab5698"
     },
     {
       "type": "git",
@@ -15,7 +15,7 @@
     {
       "type": "git",
       "path": "github.com/arcticicestudio/nord-vim",
-      "version": "81d80e4a978aaab77e930b094bfb6780f695b438"
+      "version": "73b3d340a735a2b6915f62a8904d6521251375cd"
     },
     {
       "type": "git",
@@ -45,17 +45,17 @@
     {
       "type": "git",
       "path": "github.com/junegunn/fzf",
-      "version": "951746297e26159cd45501030c56eca4bea4e277"
+      "version": "7322504ad07297bf44b6a7e2b8ac7a363928e6d7"
     },
     {
       "type": "git",
       "path": "github.com/junegunn/fzf.vim",
-      "version": "91ed5f4b39b6e4a2ca50be1c8cec7e1148145fab"
+      "version": "359a80e3a34aacbd5257713b6a88aa085337166f"
     },
     {
       "type": "git",
       "path": "github.com/mattn/emmet-vim",
-      "version": "5a7c7930c675220121e62d8eecfdbee653e95bac"
+      "version": "15ef997d4d683afb4b1ee641d47980972445b61f"
     },
     {
       "type": "git",
@@ -75,17 +75,17 @@
     {
       "type": "git",
       "path": "github.com/scrooloose/nerdtree",
-      "version": "b213fae7798d21ea9351cd90d54408d80be20fe6"
+      "version": "63c59208c1f9eef7068a944f5c3033bd1a348b97"
     },
     {
       "type": "git",
       "path": "github.com/sheerun/vim-polyglot",
-      "version": "d52700284984ada048ce325404dfa25237271ba1"
+      "version": "3ddca5da461ebfaa82104f82e3cbf19d1c326ade"
     },
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "6d42c7df44aa20252e5dac747c3ac9fa7450b21b"
+      "version": "adba9c6345af58b31bcba8599b5bb162575d5755"
     },
     {
       "type": "git",
@@ -95,7 +95,7 @@
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "9ad8fd6a1bdff5f0c80cf921df5628d1d322cf82"
+      "version": "aae6d30b1ec135e37ec3bea1885d161c6174572b"
     }
   ],
   "profiles": [
