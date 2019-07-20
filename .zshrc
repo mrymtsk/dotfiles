@@ -94,6 +94,11 @@ if [[ -s $HOME/.github_token ]]; then
     source $HOME/.github_token
 fi
 
+# dircolors
+if [[ -r ${ZDOTDIR:-$HOME}/.dir_colors ]]; then
+    eval $(dircolors ${ZDOTDIR:-$HOME}/.dir_colors)
+fi
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND="set -o pipefail; command find -L . -mindepth 1 \( -name '*~' -o -fstype 'sysfs' -o -fstype 'devfs' -o -fstype 'devtmpfs' -o -fstype 'proc' \) -prune -o -type f -print -o -type l -print 2> /dev/null | cut -b3-"
