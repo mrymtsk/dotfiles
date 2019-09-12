@@ -246,7 +246,12 @@ colors:
   # Example:
   #   `- { index: 16, color: '0xff00ff' }`
   #
-  indexed_colors: []
+  indexed_colors:
+    - { index: 67,   color: '0x5E81AC' }
+    - { index: 173,  color: '0xD08770' }
+    - { index: 236,  color: '0x2E3440' }
+    - { index: 239,  color: '0x434C5E' }
+    - { index: 253,  color: '0xD8DEE9' }
 
 # Visual Bell
 #
