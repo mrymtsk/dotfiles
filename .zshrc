@@ -32,7 +32,7 @@ if [[ -z $TMUX ]]; then
 fi
 
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
+HISTFILE="${ZDOTDIR:-$HOME}/.zhistory"
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -v
