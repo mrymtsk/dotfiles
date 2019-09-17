@@ -75,17 +75,22 @@
     {
       "type": "git",
       "path": "github.com/scrooloose/nerdtree",
-      "version": "51fc75efdb8ac58c853492c3f61d854f65ed78ec"
+      "version": "9193962ad88f15d9f426c3cfb8a274ff1dd0c5b2"
     },
     {
       "type": "git",
       "path": "github.com/sheerun/vim-polyglot",
-      "version": "fbc2af9e820d85e17cd08023f4dcc66545735d58"
+      "version": "4f3df59be709bf0d5c5c67dc804fde49abdc2700"
+    },
+    {
+      "type": "git",
+      "path": "github.com/thinca/vim-quickrun",
+      "version": "008dd08aad2a544938acbbcf7cee6d3735ebd2fb"
     },
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "26f6037de68254376cd062286aeeaa7db804a973"
+      "version": "f5a94cbc811aee12ad99cc82ee8092406aa94faf"
     },
     {
       "type": "git",
@@ -95,7 +100,7 @@
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "cda46636f475d6571fba2c3e4f01ff5541d2ef7a"
+      "version": "61cfb3fefb0ebd8654be452046bd2ba24025311f"
     }
   ],
   "profiles": [
@@ -112,6 +117,7 @@
         "github.com/mrymtsk/orca-vim",
         "github.com/scrooloose/nerdtree",
         "github.com/sheerun/vim-polyglot",
+        "github.com/thinca/vim-quickrun",
         "github.com/tpope/vim-fugitive",
         "github.com/vim-airline/vim-airline",
         "github.com/w0rp/ale"
