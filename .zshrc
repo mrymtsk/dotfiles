@@ -15,18 +15,30 @@ export PATH="${ZDOTDIR:-$HOME}/opt/bin:${ZDOTDIR:-$HOME}/script:$GNUBIN:$PATH"
 export LD_LIBRARY_PATH="${ZDOTDIR:-$HOME}/opt/lib:$LD_LIBRARY_PATH"
 export XDG_CONFIG_HOME="${ZDOTDIR:-$HOME}/.config"
 
+source_if_exists() {
+    local file_path
+    if [[ ${1:0:1} = "/" ]]; then
+        file_path=$1
+    else
+        file_path=${ZDOTDIR:-$HOME}/$1
+    fi
+    if [[ -s $file_path ]]; then
+        source "$file_path"
+    fi
+}
+
 # TMUX
 tmuxconf="${ZDOTDIR:-$HOME}/.tmux.conf"
 tmuxsocket="mrymtsk"
 if [[ -z $TMUX ]]; then
-    if [[ -n $(hostname | grep 'ccfep[2-8]') ]]; then
-        ssh ccfep1.ims.ac.jp -o RequestTTY=force env COLORTERM=$COLORTERM ZDOTDIR=${ZDOTDIR:-$HOME} zsh
+    if hostname | grep -q 'ccfep[2-8]'; then
+        ssh ccfep1.ims.ac.jp -o RequestTTY=force env COLORTERM="$COLORTERM" ZDOTDIR="${ZDOTDIR:-$HOME}" zsh
         exit 0
     fi
     if [[ -z $(tmux -L $tmuxsocket list-sessions) ]]; then
-        tmux -f $tmuxconf -L $tmuxsocket new-session
+        tmux -f "$tmuxconf" -L $tmuxsocket new-session
     else
-        tmux -f $tmuxconf -L $tmuxsocket attach
+        tmux -f "$tmuxconf" -L $tmuxsocket attach
     fi
     exit 0
 fi
@@ -56,15 +68,13 @@ zstyle ':completion:*:descriptions' format '%BCompleting%b %U%d%u'
 zstyle ':completion:*:*' ignored-patterns '*?~'
 
 # Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
+source_if_exists .zprezto/init.zsh
 
 # Customize to your needs...
 
 # Custom alias
 alias zgit='cat ~/.zprezto/modules/git/alias.zsh | grep "alias " | grep'
-alias vim="vim -u ${ZDOTDIR:-$HOME}/.vim/vimrc"
+alias vim='vim -u ${ZDOTDIR:-$HOME}/.vim/vimrc'
 
 # Locale environmental variables
 export LC_ALL=en_US.UTF-8
@@ -82,7 +92,7 @@ setopt globdots
 
 # chpwd
 chpwd() {
-  if [ $(($(tput lines) - 5)) -gt $(ls -A1 | wc -l) ]; then
+  if [ $(($(tput lines) - 5)) -gt "$(find . -maxdepth 1 -not -name . -not -name '*~' | wc -l)" ]; then
     ls -ABFlhs
   else
     ls -ABCF
@@ -90,13 +100,11 @@ chpwd() {
 }
 
 # GitHub Token
-if [[ -s $HOME/.github_token ]]; then
-    source $HOME/.github_token
-fi
+source_if_exists .github_token
 
 # dircolors
 if [[ -r ${ZDOTDIR:-$HOME}/.dir_colors ]]; then
-    eval $(dircolors ${ZDOTDIR:-$HOME}/.dir_colors)
+    eval "$(dircolors "${ZDOTDIR:-$HOME}/.dir_colors")"
 fi
 
 # fzf
@@ -124,18 +132,14 @@ export VOLTPATH="${ZDOTDIR:-$HOME}/.volt"
 export VOLT_VIM_DIR="${ZDOTDIR:-$HOME}/.vim"
 
 # z
-if [[ -s /usr/local/etc/profile.d/z.sh ]]; then
-    . /usr/local/etc/profile.d/z.sh
-fi
+export _Z_DATA="${ZDOTDIR:-$HOME}/.z"
+source_if_exists script/z.sh
+source_if_exists /usr/local/etc/profile.d/z.sh
 
 # sshmount
-if [[ -s "$HOME/.sshmnt.sh" ]]; then
-    source "$HOME/.sshmnt.sh"
-fi
+source_if_exists .sshmnt.sh
 
 # Docker
-if [[ -s "${ZDOTDIR:-$HOME}/script/docker_wrapper.sh" ]]; then
-    source "${ZDOTDIR:-$HOME}/script/docker_wrapper.sh"
-fi
+source_if_exists script/docker_wrapper.sh
 
 typeset -U path PATH
