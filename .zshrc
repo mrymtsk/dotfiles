@@ -17,14 +17,18 @@ export XDG_CONFIG_HOME="${ZDOTDIR:-$HOME}/.config"
 
 source_if_exists() {
     local file_path
-    if [[ ${1:0:1} = "/" ]]; then
-        file_path=$1
-    else
-        file_path=${ZDOTDIR:-$HOME}/$1
-    fi
-    if [[ -s $file_path ]]; then
-        source "$file_path"
-    fi
+    for source_file in "$@"
+    do
+        if [[ ${source_file:0:1} = "/" ]]; then
+            file_path=$source_file
+        else
+            file_path=${ZDOTDIR:-$HOME}/$source_file
+        fi
+        if [[ -s $file_path ]]; then
+            source "$file_path"
+            break
+        fi
+    done
 }
 
 # TMUX
@@ -133,8 +137,7 @@ export VOLT_VIM_DIR="${ZDOTDIR:-$HOME}/.vim"
 
 # z
 export _Z_DATA="${ZDOTDIR:-$HOME}/.z"
-source_if_exists script/z.sh
-source_if_exists /usr/local/etc/profile.d/z.sh
+source_if_exists script/z.sh /usr/local/etc/profile.d/z.sh
 
 # sshmount
 source_if_exists .sshmnt.sh
