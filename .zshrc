@@ -133,4 +133,9 @@ if [[ -s "$HOME/.sshmnt.sh" ]]; then
     source "$HOME/.sshmnt.sh"
 fi
 
+# Docker
+if [[ -s "${ZDOTDIR:-$HOME}/script/docker_wrapper.sh" ]]; then
+    source "${ZDOTDIR:-$HOME}/script/docker_wrapper.sh"
+fi
+
 typeset -U path PATH
