@@ -1,9 +1,9 @@
-[submodule ".config/bat/syntaxes/orca-sublime"]
-	path = .config/bat/syntaxes/orca-sublime
+[submodule ".config/bat/syntaxes.link/orca-sublime"]
+	path = .config/bat/syntaxes.link/orca-sublime
 	url = https://github.com/mrymtsk/orca-sublime
-[submodule ".config/bat/themes/one-dark-theme"]
-	path = .config/bat/themes/one-dark-theme
+[submodule ".config/bat/themes.link/one-dark-theme"]
+	path = .config/bat/themes.link/one-dark-theme
 	url = https://github.com/andresmichel/one-dark-theme
-[submodule ".config/bat/themes/nord-sublime-text"]
-	path = .config/bat/themes/nord-sublime-text
+[submodule ".config/bat/themes.link/nord-sublime-text"]
+	path = .config/bat/themes.link/nord-sublime-text
 	url = https://github.com/arcticicestudio/nord-sublime-text
