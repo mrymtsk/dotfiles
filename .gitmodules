@@ -6,4 +6,4 @@
 	url = https://github.com/andresmichel/one-dark-theme
 [submodule ".config/bat/themes.link/nord-sublime-text"]
 	path = .config/bat/themes.link/nord-sublime-text
-	url = https://github.com/arcticicestudio/nord-sublime-text
+	url = https://github.com/mrymtsk/nord-sublime-text
