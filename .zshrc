@@ -32,7 +32,7 @@ source_if_exists() {
 }
 
 # TMUX
-tmuxconf="${ZDOTDIR:-$HOME}/.tmux.conf"
+tmuxconf="${ZDOTDIR:-$HOME}/.config/tmux/tmux.conf"
 tmuxsocket="mrymtsk"
 if [[ -z $TMUX ]]; then
     if hostname | grep -q 'ccfep[2-8]'; then
