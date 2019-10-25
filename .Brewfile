@@ -1,10 +1,14 @@
 tap "cjbassi/gotop"
+tap "dart-lang/dart"
+tap "fabianishere/personal"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "linux-noah/noah"
+tap "sass/sass"
 cask "osxfuse"
 brew "python"
 brew "asciinema"
@@ -17,7 +21,11 @@ brew "colordiff"
 brew "coreutils"
 brew "curl"
 brew "libssh2"
+brew "curl-openssl"
 brew "diffutils"
+brew "docker"
+brew "docker-compose"
+brew "docker-machine", restart_service: true
 brew "ed"
 brew "editorconfig"
 brew "fdupes"
@@ -55,6 +63,7 @@ brew "jq"
 brew "less"
 brew "lftp"
 brew "libarchive"
+brew "llvm"
 brew "lsyncd"
 brew "lv"
 brew "mackup"
@@ -73,10 +82,14 @@ brew "open-mpi"
 brew "pandoc"
 brew "perl-build"
 brew "php", restart_service: true
+brew "php-code-sniffer"
+brew "php-cs-fixer"
 brew "pinentry-mac"
 brew "povray"
+brew "putty"
 brew "rename"
 brew "rsync"
+brew "rsync-time-backup", args: ["HEAD"]
 brew "ruby"
 brew "ruby-build"
 brew "rust"
@@ -88,6 +101,7 @@ brew "socat"
 brew "source-highlight"
 brew "speedtest-cli"
 brew "sshfs"
+brew "tesseract"
 brew "the_silver_searcher"
 brew "tig"
 brew "tika"
@@ -110,6 +124,8 @@ brew "zenity"
 brew "zsh"
 brew "zstd"
 brew "cjbassi/gotop/gotop"
+brew "fabianishere/personal/pam_reattach"
+brew "sass/sass/sass"
 cask "1password"
 cask "1password-cli"
 cask "adobe-creative-cloud"
@@ -118,7 +134,6 @@ cask "appcleaner"
 cask "aquaterm"
 cask "atok"
 cask "avogadro"
-cask "bettertouchtool"
 cask "bitbar"
 cask "coteditor"
 cask "crossover"
@@ -175,15 +190,16 @@ cask "macdown"
 cask "makemkv"
 cask "mendeley"
 cask "metaz"
+cask "michaelvillar-timer"
 cask "moom"
-cask "mtmr"
 cask "ngrok"
-cask "omnifocus"
+cask "omnifocus2"
 cask "onedrive"
 cask "pock"
 cask "popclip"
 cask "powershell"
 cask "readcube"
+cask "sampler"
 cask "skype"
 cask "skype-for-business"
 cask "skypewebplugin"
@@ -191,62 +207,35 @@ cask "slack"
 cask "the-unarchiver"
 cask "time-lapse-assembler"
 cask "typora"
+cask "unlox"
+cask "virtualbox"
 cask "vlc"
 cask "whatsapp"
 cask "xquartz"
 mas "AirBrowser", id: 948620309
-mas "AirBrowser", id: 948620309
-mas "Airmail", id: 918858936
-mas "Airmail", id: 918858936
 mas "Airmail", id: 918858936
 mas "Amphetamine", id: 937984704
-mas "Amphetamine", id: 937984704
-mas "Battery Monitor", id: 836505650
 mas "Battery Monitor", id: 836505650
 mas "Dark Mode for Safari", id: 1397180934
-mas "Dark Mode for Safari", id: 1397180934
-mas "Disk Diag", id: 672206759
 mas "Disk Diag", id: 672206759
 mas "Display Menu", id: 549083868
-mas "Display Menu", id: 549083868
-mas "Dropshelf", id: 540404405
 mas "Dropshelf", id: 540404405
 mas "Folder Sync", id: 433026186
-mas "Folder Sync", id: 433026186
-mas "Gapplin", id: 768053424
 mas "Gapplin", id: 768053424
 mas "GarageBand", id: 682658836
 mas "GIFQuickMaker", id: 411431426
-mas "GIFQuickMaker", id: 411431426
-mas "GIPHY CAPTURE", id: 668208984
 mas "GIPHY CAPTURE", id: 668208984
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
-mas "Keynote", id: 409183694
-mas "Keynote", id: 409183694
-mas "LINE", id: 539883307
 mas "LINE", id: 539883307
 mas "Memory Diag", id: 748212890
-mas "Memory Diag", id: 748212890
-mas "Microsoft Excel", id: 462058435
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
 mas "Microsoft Word", id: 462054704
 mas "Moom", id: 419330170
-mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
-mas "Numbers", id: 409203825
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Pages", id: 409201541
 mas "Pages", id: 409201541
 mas "Pocket", id: 568494494
-mas "Pocket", id: 568494494
-mas "Reeder", id: 880001334
 mas "Reeder", id: 880001334
 mas "Snappy", id: 512617038
-mas "Snappy", id: 512617038
-mas "Xcode", id: 497799835
 mas "Xcode", id: 497799835
