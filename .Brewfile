@@ -17,6 +17,7 @@ brew "bat"
 brew "binutils"
 brew "bison"
 brew "certbot"
+brew "cheat"
 brew "colordiff"
 brew "coreutils"
 brew "curl"
@@ -25,6 +26,7 @@ brew "curl-openssl"
 brew "diffutils"
 brew "docker"
 brew "docker-compose"
+brew "docker-credential-helper"
 brew "docker-machine", restart_service: true
 brew "ed"
 brew "editorconfig"
@@ -52,7 +54,7 @@ brew "go"
 brew "grep"
 brew "gtkglext"
 brew "gzip"
-brew "handbrake"
+brew "handbrake", link: false
 brew "httpd", restart_service: true
 brew "httpie"
 brew "hub"
@@ -97,8 +99,10 @@ brew "screen"
 brew "shellcheck"
 brew "sift"
 brew "sl"
+brew "sleepwatcher"
 brew "socat"
 brew "source-highlight"
+brew "spark"
 brew "speedtest-cli"
 brew "sshfs"
 brew "tesseract"
@@ -113,8 +117,6 @@ brew "volt"
 brew "watch"
 brew "wdiff"
 brew "wget"
-brew "wine"
-brew "winetricks"
 brew "xmlstarlet"
 brew "yamllint"
 brew "yarn"
@@ -135,8 +137,8 @@ cask "aquaterm"
 cask "atok"
 cask "avogadro"
 cask "bitbar"
+cask "chromedriver"
 cask "coteditor"
-cask "crossover"
 cask "daisydisk"
 cask "discord"
 cask "dropbox"
@@ -188,7 +190,8 @@ cask "kitematic"
 cask "launchbar"
 cask "macdown"
 cask "makemkv"
-cask "mendeley"
+cask "mendeley-desktop"
+cask "mendeley-reference-manager"
 cask "metaz"
 cask "michaelvillar-timer"
 cask "moom"
@@ -228,7 +231,6 @@ mas "GIPHY CAPTURE", id: 668208984
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
-mas "Memory Diag", id: 748212890
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
@@ -236,6 +238,8 @@ mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pocket", id: 568494494
+mas "Post-it®", id: 1475777828
 mas "Reeder", id: 880001334
 mas "Snappy", id: 512617038
+mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
