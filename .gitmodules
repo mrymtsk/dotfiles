@@ -7,3 +7,6 @@
 [submodule ".config/bat/themes.link/nord-sublime-text"]
 	path = .config/bat/themes.link/nord-sublime-text
 	url = https://github.com/mrymtsk/nord-sublime-text
+[submodule ".config/tmux.link/plugins/tmux-prefix-highlight"]
+	path = .config/tmux.link/plugins/tmux-prefix-highlight
+	url = https://github.com/tmux-plugins/tmux-prefix-highlight
