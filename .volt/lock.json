@@ -5,7 +5,7 @@
     {
       "type": "git",
       "path": "github.com/airblade/vim-gitgutter",
-      "version": "1c53af9a0d3b622af5a62d69ddfc141c841a28c1"
+      "version": "2ef4f7e7b20dce7fd89adbeb6a943240b77a7a8e"
     },
     {
       "type": "git",
@@ -15,12 +15,12 @@
     {
       "type": "git",
       "path": "github.com/arcticicestudio/nord-vim",
-      "version": "38ab4a9c974be4189bdf53f7d938a6197ba19119"
+      "version": "aa1470403a300a7d5088057d970c13d4388eb13e"
     },
     {
       "type": "git",
       "path": "github.com/editorconfig/editorconfig-vim",
-      "version": "2ad3d7882d2e9622a7fdc1a5ba1c5d0064d89472"
+      "version": "21fbc2afe8f30e98b890fb42fc6bc18fc0c0380e"
     },
     {
       "type": "git",
@@ -45,12 +45,12 @@
     {
       "type": "git",
       "path": "github.com/junegunn/fzf",
-      "version": "86e3994e87b264f874ea1620fc31f42e3744aad0"
+      "version": "3918c45ceda5e7c57d6832cdeedbfeb8f7a6444e"
     },
     {
       "type": "git",
       "path": "github.com/junegunn/fzf.vim",
-      "version": "65edb6ad99b51514aaf29afc25e35ce5f05281ba"
+      "version": "dc4c4c22715c060a2babd5a5187004bdecbcdea7"
     },
     {
       "type": "git",
@@ -75,12 +75,12 @@
     {
       "type": "git",
       "path": "github.com/scrooloose/nerdtree",
-      "version": "82b1649f2e1c79ff17730fe0a3750bbec203dd29"
+      "version": "8c48845d11adc4c9b07fc727725ed68be5d3177f"
     },
     {
       "type": "git",
       "path": "github.com/sheerun/vim-polyglot",
-      "version": "15aeea662e0b08088ac7b6e3ee661c834e69106a"
+      "version": "35ea4d2b9072594b6c0ccf87bde7978ed9f94755"
     },
     {
       "type": "git",
@@ -90,17 +90,17 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "5d37b17e3447edafa418550f2b19e0226b4c7824"
+      "version": "1c1014a0464cfb4985b6f913381a2a7a2f7b87bd"
     },
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "2daef1bcb8b240c303ef34c3348ee1af071963b4"
+      "version": "f659a98d501a1eea9f0229aba85499ab2f8308e6"
     },
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "5f84325cd811ec179b7f3642652438c6a45b174d"
+      "version": "4afbf2f25dc0ce86b118261b0cfb904c80ae6ba0"
     }
   ],
   "profiles": [

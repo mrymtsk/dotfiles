@@ -75,3 +75,5 @@ if hostname() =~? "ccfep"
   set runtimepath^=/lustre/home/users/jw9/Murayama/.vim runtimepath+=/lustre/home/users/jw9/Murayama/.vim/after
   let &packpath=&runtimepath
 endif
+
+au BufWritePost * exe "silent !mv ".expand("%:p").&bex." ".expand("%:p:h")."/.".expand("%:t").&bex
