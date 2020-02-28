@@ -22,8 +22,8 @@
     binary = true
     textconv = plutil -p
 [ghq]
-	root = ~/.ghq
-    root = ~/.go/src
     root = ~/.volt/repos
+    root = ~/.go/src
+	root = ~/.ghq
 [tag]
 	forceSignAnnotated = true
