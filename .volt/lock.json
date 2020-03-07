@@ -45,12 +45,12 @@
     {
       "type": "git",
       "path": "github.com/junegunn/fzf",
-      "version": "9f0626da643070455fb5d6bb11ff1f483a0c100f"
+      "version": "d9c6a0305b8c7f83a21fa583ae662660b940b1b6"
     },
     {
       "type": "git",
       "path": "github.com/junegunn/fzf.vim",
-      "version": "48a2d80a24d19bfaafd91005786653bc49303c62"
+      "version": "e32a9c376751fefa0a607f37aa4139bd99635118"
     },
     {
       "type": "git",
@@ -80,7 +80,7 @@
     {
       "type": "git",
       "path": "github.com/sheerun/vim-polyglot",
-      "version": "35ea4d2b9072594b6c0ccf87bde7978ed9f94755"
+      "version": "e86e0ad36ef9501acbc3e8c63a1d4fab104e47cb"
     },
     {
       "type": "git",
@@ -90,17 +90,17 @@
     {
       "type": "git",
       "path": "github.com/tpope/vim-fugitive",
-      "version": "c452181975761f8b055b88eb1c98f736323510fd"
+      "version": "e06005a742714a4293f1928bca0aca7c9e383383"
     },
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "774cd8b08ff1569f86cba78e24ee06e448f86b4f"
+      "version": "4e2546a2098954b74cbc612f573826f13d6fb88e"
     },
     {
       "type": "git",
       "path": "github.com/w0rp/ale",
-      "version": "634c81fd465269f59e3db878fe8405828e6d2da9"
+      "version": "8f7ccdc5e95302223c516a0113f5af7e075dc041"
     }
   ],
   "profiles": [
