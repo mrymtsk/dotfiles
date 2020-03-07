@@ -97,7 +97,7 @@ setopt globdots
 # chpwd
 chpwd() {
   if [ $(($(tput lines) - 5)) -gt "$(find . -maxdepth 1 -not -name . -not -name '*~' | wc -l)" ]; then
-    ls -ABFlhs
+    ls -ABFlh
   else
     ls -ABCF
   fi
@@ -146,3 +146,8 @@ source_if_exists .sshmnt.sh
 source_if_exists script/docker_wrapper.sh
 
 typeset -U path PATH
+
+# broot
+if type broot > /dev/null 2>&1; then
+    eval "$(broot --print-shell-function zsh)"
+fi
